@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Велоспорт</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="animation-loading">
+            <img class="header-bike" src="img/header_bike 1.png" alt="">
+            <header>
+                <div class="nav_elem">
+                    <div>
+                        <div class="container">
+                            <div class="nav_title">
+                                <img class="title_img" src="img/wheels 1.svg" alt="">
+                                <h1 class="main_title">Велоспорт</h1>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="menu-burger">
+                                <span></span>
+                            </div>
+                        </div>
+                        <nav class="nav">
+                            <div class="burger-logo">
+                                <img class="burger-logo-img" src="img/wheels 1.svg" alt="">
+                                <h1 class="burger-logo-title">Велоспорт</h1>
+                            </div>
+                            <ul class="nav-btns">
+                                <div class="nav-btn-back main-back"></div>
+                                <li>
+                                    <a class="nav-btn main-link" href="#">Главная</a>
+                                </li>
+                                <li class="nav-btn achiev-link" onclick="slowScroll('.achievments-section')">Достижения</li>
+                                <li class="nav-btn contacts-link" onclick="slowScroll('.footer-elem')">Контакты</li>
+                                <li>
+                                    <a class="nav-btn training-link" href="#">Обучение</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="header-title">
+                        <h1>Велосипедный спорт</h1>
+                        <p class="title-info">-Лучший спорт для тренировки ног, который повышает выносливость.</p>
+                        <a class="shop-btn" href="#">
+                            <p class="shop-link">В магазин</p>
+                            <img src="img/line.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <section class="training-section">
+                <div class="container">
+                    <h1 class="training-title">Чему мы обучаем</h1>
+                    <div class="courses">
+                        <a class="mountains-course course" href="">
+                            <img class="mountain-bicycle-img" src="img/mountain bicycle.svg">
+                            <h1 class="mountains-course-title">Езда по горам</h1>
+                        </a>
+                        <a class="go-shop course" href="">
+                            <h1 class="go-shop-title">Купить реквизит для тренировок</h1>
+                            <img class="go-shop-line" src="img/line.svg">
+                            <img class="shop-bike" src="img/shop-bike.svg">
+                        </a>
+                        <a class="pro-course course" href="">
+                            <h1 class="pro-course-title">Езда для профи</h1>
+                            <img class="pro-drive-img" src="img/professional.svg">
+                        </a>
+                        <a class="tricks-course course" href="">
+                            <h1 class="tricks-course-title">Обучение трюкам</h1>
+                            <img class="trick-img" src="img/image trick.svg">
+                        </a>
+                        <a class="contact-us" href="">
+                            <h1>Связаться с нами</h1>
+                            <img src="img/line.svg">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="achievments-section">
+                <div class="container">
+                    <h1 class="achievments-title">Достижения</h1>
+                    <div class="slides">
+                        <div>
+                            <img class="prev-btn sliders-btn" src="img/left-arrow.png">
+                        </div>
+                        <div class="slide natan">
+                            <img class="natan-img people-img" src="img/Natan.png">
+                            <div class="natan-output people-output">
+                                <h1 class="natan-title people-title">Натан Рэнни</h1>
+                                <p class="natan-record people-record">-улетел на своем байке дальше всех (36.9м)</p>
+                            </div>
+                        </div>
+                        <div class="slide ondrey active">
+                            <img class="ondrey-img people-img active-img" src="img/ondrey.png">
+                            <div class="ondrey-output people-output active-output">
+                                <h1 class="ondrey-title people-title active-title">Ондрей Сосенка</h1>
+                                <p class="ondrey-record people-record active-record">- его рекорд часовой езды составляет 49.7км за час</p>
+                            </div>
+                        </div>
+                        <div class="slide fred">
+                            <img class="fred-img people-img" src="img/Fred.png">
+                            <div class="fred-output people-output">
+                                <h1 class="fred-title people-title">Фред Ромпельберг</h1>
+                                <p class="fred-record people-record">-достиг скорости на велосипеде 268.8км/час, просто изолировав себя от ветра</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="next-btn sliders-btn" src="img/right-arrow.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section">
+                <div class="container">
+                    <h1 class="contact-title">Свяжитесь с нами</h1>
+                    <div class="contact-window">
+                        <div class="contact-window-preview">
+                            <div class="contact-preview-title">
+                                <img src="img/wheels 1.svg">
+                                <h1>Велоспорт</h1>
+                            </div>
+                            <img class="cyclist-img" src="img/Cyclist.svg">
+                        </div>
+                        <div class="user-contacts">
+                            <form class="user-contacts-form" method="POST" action="user contacts.php" id="user-contacts" >
+                                <h1 class="e-mail-title">E-mail</h1>
+                                <input class="email-input" type="text" name="email" placeholder="example1@gmail.com">
+                                <h1 class="phone-title">Телефон</h1>
+                                <input class="phone-input" type="tel" name="phone" maxlength="12" pattern=".{12}" placeholder="+79999999999">
+                                <button class="submit-user-contacts" type="submit-user-contacts" id="submit-user-contacts">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="container">
+                    <div class="footer-elem">
+                        <div class="company-inf">
+                            <h1 class="company-inf-title">Наша Компания</h1>
+                            <ul class="footer-btns company-btns">
+                                <li>
+                                    <a class="footer-btn company-btn" href="">Заказать сайт</a>
+                                </li>
+                                <li>
+                                    <a class="footer-btn company-btn" href="">Наш магазин</a>
+                                </li>
+                                <li>
+                                    <a class="footer-btn company-btn" href="">Наши сайты</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="company-contacts">
+                            <h1 class="company-contacts-title">Контакты</h1>
+                            <ul class="footer-btns footer-contacts ">
+                                <li>
+                                    <div class="company-phone">
+                                        <img src="img/telephone 1.svg">
+                                        <span class="company-telephone">+79041547949</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="company-email">
+                                        <img src="img/email 1.svg">
+                                        <a class="company-email-address" href="mailto:myrusakov@gmail.com">example11@gmail.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="networks">
+                            <h1 class="networks-title">Соц сети</h1>
+                            <ul class="company-networks">
+                                <li>
+                                    <a class="network" href="https://facebook.com/"><img src="img/facebook logo.svg"></a>
+                                </li>
+                                <li>
+                                    <a class="network" href="https://telegram.org/"><img src="img/telegram logo.svg"></a>
+                                </li>
+                                <li>
+                                    <a class="network" href="https://vk.com/"><img src="img/vk logo.svg"></a>
+                                </li>
+                                <li>
+                                    <a class="network" href="https://instargam.com/"><img src="img/inst logo.svg"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="copy-right">© 2022 - 2023</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(function(){
+        $('#user-contacts').submit(function(){
+            var errors = false;
+            $(this).find('span').empty();
+        
+            $(this).find('input').each(function(){
+                if( $.trim( $(this).val() ) == '' ){
+                    errors = true;
+                }
+            });
+        
+            if('errors'){
+                var data = $('#user-contacts').serialize();
+                $.ajax ({
+                    url: 'user contacts.php',
+                    type: 'POST',
+                    data: data,
+                    beforeSend: function() {
+                        $('#submit-user-contacts').next().text('Отправляю...');
+                    },
+                    success: function(res) {
+                        alert('Заявка успешно отправлена. Наш Менеджер свяжется с Вами в ближайшее время!');
+                    },
+                    error: function() {
+                        alert('ошибка');
+                    }
+                });
+            }
+        
+            return false;
+        });
+        
+        });
+    </script>
+</body>
+</html>

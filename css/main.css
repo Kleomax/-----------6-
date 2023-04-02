@@ -1,0 +1,1894 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-bike {
+    float: right;
+    margin-top: 161px;
+}
+body {
+    background: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background: url('../img/background\ web.svg') no-repeat center top;
+}
+.animation-loading {
+    animation: sectionsAnimation 1s ease-in-out;
+}
+.container {
+    width: 1180px;
+    margin: 0 auto
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav_title {
+    padding-top: 61px;
+    display: grid;
+    grid-template-columns: 50px 100px;
+    grid-column-gap: 20px;
+
+}
+.main_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: grid;
+    align-self: center;
+}
+nav {
+    margin-left: 51.5%;
+}
+.burger-logo {
+    display: none;
+}
+.nav-btns {
+    position: relative;
+    width: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 100px;
+}
+.nav-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+}
+.nav-btn-back {
+    position: absolute;
+    width: 112.92px;
+    height: 32px;
+    transform: skew(-25deg);
+    background: rgba(59, 150, 234, 0.4);
+    bottom: -6px;
+    animation: sectionsAnimation 0.5s ease-in-out;
+}
+.main-back {
+    left: -25px;
+}
+.achiev-back {
+    left: 151px;
+}
+.contacts-back {
+    left: 336px;
+}
+.training-back {
+    left: 509px;
+}
+.header-title {
+    margin-top: 16.9%;
+    width: 366px;
+
+}
+.header-title h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.title-info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 302px;
+}
+.shop-btn {
+    background: url('../img/background\ button.svg');
+    margin-top: 37px;
+    width: 238.57px;
+    height: 59px;
+    border: none;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 96px 41px;
+    justify-content: center;
+    grid-column-gap: 15px;
+
+}
+.shop-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.training-section {
+    margin-top: 264px;
+}
+.training-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.courses {
+    margin-top: 125px;
+    display: grid;
+    width: 0px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 70px;
+    grid-template-rows: auto 133px;
+
+}
+.mountains-course {
+    background: url('../img/background.svg');
+    width: 325px;
+    height: 213px;
+    display: grid;
+    grid-template-columns: 170px auto;
+    grid-column-gap: 30px
+}
+.mountains-course-title {
+    margin-top: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 95px;
+    color: white;
+}
+.go-shop {
+    background: url('../img/backround\ go\ shop.svg');
+    width: 289px;
+    height: 133px;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    display: grid;
+    grid-template-columns: 195px auto;
+    grid-template-rows: 48px;
+    align-content: center;
+    align-items: center;
+    padding-left: 36px;
+}
+.go-shop-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.go-shop-line {
+    width: 50px;
+}
+.shop-bike {
+    display: none;
+}
+.pro-course {
+    background: url('../img/background\ professional.svg');
+    width: 281px;
+    height: 395px;
+    grid-column: 2/2;
+    grid-row: 1/3;
+}
+.pro-course-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 36px;
+    margin-left: 36px;
+    width: 92px;
+}
+.pro-drive-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 117px;
+}
+.tricks-course {
+    background: url('../img/tricks\ background.svg');
+    width: 325px;
+    height: 213px;
+    display: grid;
+    grid-template-columns: 137px auto;
+}
+.tricks-course-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 106px;
+    margin-top: 37px;
+    margin-left: 31px;
+}
+.trick-img {
+    margin-left: 26px;
+    margin-top: 34px;
+}
+.contact-us {
+    display: grid;
+    grid-template-columns: 182px auto;
+    grid-template-rows: 21px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 41px;
+    grid-column-gap: 10px;
+}
+.contact-us h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.achievments-section {
+    margin-top: 131px;
+}
+.achievments-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.slides {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 90px;
+
+}
+.sliders-btn {
+    margin-top: 346px;
+    cursor: pointer;
+}
+.prev-btn {
+    grid-column: 1/1;
+}
+.next-btn {
+    grid-column: 5/5;
+}
+.natan {
+    position: relative;
+    margin-top: 219px;
+}
+.natan-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: grid;
+    justify-content: center;
+    margin-top: 18px;
+}
+.natan-record {
+    width: 113px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 18px;
+}
+.natan-output {
+    background-image: url('../img/background\ achivement\ fly.svg');
+    width: 191px;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 187px;
+}
+.ondrey {
+    position: relative;
+    margin-top: 111px;
+}
+.ondrey-img {
+    width: 191px;
+    height: 193px;
+}
+.ondrey-output {
+    background-image: url('../img/background\ achivement\ hour.svg');
+    width: 299px;
+    height: 157px;
+    position: absolute;
+    width: 191px;
+    height: 100px;
+    top: 187px;
+}
+.ondrey-title {
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-top: 22px;
+    width: 155px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.ondrey-record {
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 212px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+.fred {
+    position: relative;
+    margin-top: 219px;
+}
+.fred-img {
+    width: 191px;
+    height: 193px;
+}
+.fred-output {
+    background-image: url('../img/background\ achivement\ speed.svg');
+    width: 191px;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 187px;
+}
+.fred-title {
+    width: 135px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 18px;    
+}
+.fred-record {
+    width: 155px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.slide.active {
+    margin-top: 111px;
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+.active-img {
+    width: 299px;
+    height: 265.63px;
+}
+.active-output {
+    width: 299px;
+    height: 157px;
+    top: 238px;
+}
+.active-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.active-record {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+.contact-section {
+    margin-top: 200px;
+    
+}
+.contact-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 230px;
+}
+.contact-window {
+    width: 790px;
+    height: 455px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background: #202125;
+    display: grid;
+    grid-template-columns: 304px auto;
+}
+.contact-window-preview {
+    background-image: url('../img/contact\ background.png');
+    width: 304px;
+    height: 455px;
+    display: grid;
+    justify-items: center;
+}
+.contact-preview-title {
+    margin-top: 88px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    width: 284px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 45px auto;
+    align-items: center;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+.contact-preview-title img {
+    width: 45px;
+}
+.contact-preview-title h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #DEDEDE;
+}
+.cyclist-img {
+    margin-top: 16%;
+}
+.user-contacts {
+    width: 271px;
+    height: 144px;
+    margin: 0 auto;
+    margin-top: 82px;
+}
+.e-mail-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.email-input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.9);
+    background: none;
+    margin-top: 5px;
+    padding-bottom: 2px;
+    border: none;
+    border-bottom: 1.5px solid #3882AC;
+    width: 271px;
+}
+.phone-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 60px;
+}
+.phone-input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    background: none;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 5px;
+    width: 271px;
+    padding-bottom: 2px;
+    border: none;
+    border-bottom: 1.5px solid #3882AC;
+}
+.submit-user-contacts {
+    background-image: url('../img/submit-btn-back.png');
+    width: 196px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 99px;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    margin: 0 auto;
+    margin-top: 253px;
+    width: 93.8%;
+    border-top: 1.5px solid #FFFFFF;
+
+}
+.footer-elem {
+    display: grid;
+    grid-template-columns: 179px 252px 215px;
+    grid-column-gap: 251px;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+.company-inf-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    padding-left: 8px;
+    border-left: 2.5px solid #0029FF;
+    height: 29px;
+}
+.company-btns {
+    margin-top: 20px;
+    display: grid;
+    grid-row-gap: 20px;
+}
+.company-btn {
+    height: 20px;
+}
+.footer-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+
+    color: #FFFFFF;
+}
+.company-contacts-title {
+    height: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    border-left: 2.5px solid #0029FF;
+    padding-left: 8px;
+}
+.footer-contacts {
+    margin-top: 35px;
+    display: grid;
+    grid-row-gap: 35px;
+}
+.company-phone {
+    display: grid;
+    grid-template-columns: 25px auto;
+    grid-column-gap: 12px;
+}
+.company-telephone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+.company-email {
+    display: grid;
+    grid-template-columns: 25px auto;
+    grid-column-gap: 12px;
+}
+.company-email-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+
+}
+.networks-title {
+    height: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    border-left: 2.5px solid #0029FF;
+    padding-left: 8px;
+}
+.company-networks {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 25px;
+    margin-top: 35px;
+    width: 186px;
+}
+.network {
+    width: 35px;
+}
+.copy-right {
+    margin-top: 81px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    background: black;
+}
+@keyframes backgroundAnimation {
+    from{bottom: 10px; opacity: 0;}
+    to{bottom: -6; opacity: 1;}
+}
+@keyframes sectionsAnimation {
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+@media screen and (max-width: 1300px) {
+    nav {
+        margin-left: 530px;
+    }
+    .header-bike {
+        width: 500px;
+        margin-top: 220px;
+    }
+    .header-title {
+        margin-left: 60px
+    }
+    .header-title h1 {
+        font-size: 38px;
+    }
+    .footer-elem {
+        grid-column-gap: 220px;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .header-bike {
+        margin-top: 177px;
+    }
+    .background {
+        background: url('../img/1200px\ background\ web.svg') no-repeat top;
+    }
+    .nav_title {
+        padding-top: 40px;
+        grid-template-columns: 40px 84px;
+    }
+    .title_img {
+        width: 40px;
+    }
+    .main_title {
+        font-size: 15px;
+    }
+    nav {
+        margin-left: 439px;
+    }
+    .nav-btns {
+        grid-column-gap: 75px;
+    }
+    .nav-btn {
+        font-size: 15px;
+    }
+    .nav-btn-back {
+        width: 100px;
+        height: 30px;
+        bottom: -6px;
+    }
+    .main-back {
+        left: -21px;
+    }
+    .achiev-back {
+        left: 127px;
+    }
+    .contacts-back {
+        left: 280px;
+    }
+    .training-back {
+        left: 424px;
+    }
+    .header-title {
+        margin-top: 16.9%;
+        margin-left: 74px;
+        width: 265px;
+    }
+    .header-title h1 {
+        font-size: 36px;
+    }
+    .title-info {
+        font-size: 16px;
+        margin-top: 20px;
+        width: 285px;
+    }
+    .shop-btn {
+        background: url('../img/1200px\ background\ button.svg') no-repeat;
+        margin-top: 32px;
+        width: 176px;
+        height: 48px;
+        grid-template-columns: 87px 30px;
+        grid-column-gap: 9px;
+    }
+    .shop-link {
+        font-size: 18px;
+    }
+    .shop-btn img {
+        width: 30px;
+    }
+    .training-section {
+        margin-top: 200px;
+    }
+    .training-title {
+        font-size: 22px;
+    }
+    .courses {
+        margin-top: 107px;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 61px;
+        grid-template-rows: 171px 106px;
+        grid-row-gap: 26px;
+    }
+    .mountains-course {
+        background: url('../img/1200px\ background.svg') no-repeat top;
+        width: 260px;
+        height: 171px;
+        grid-template-columns: 144px auto;
+        grid-column-gap: 23.33px
+    }
+    .mountain-bicycle-img {
+        width: 144px;
+    }
+    .mountains-course-title {
+        margin-top: 25px;
+        font-size: 17px;
+        width: 76px;
+    }
+    .go-shop {
+        background: url('../img/1200px\ backround\ go\ shop.svg') no-repeat top;
+        width: 230px;
+        height: 106px;
+        grid-template-columns: 141px auto;
+        padding-left: 30.85px;
+        grid-column-gap: 10px;
+    }
+    .go-shop-title {
+        font-size: 16px;
+        width: 141px;
+    }
+    .go-shop-line {
+        width: 43px;
+    }
+    .pro-course {
+        background: url('../img/1200px\ background\ professional.svg') no-repeat top;
+        width: 206px;
+        height: 303px;
+        grid-column: 2/2;
+        grid-row: 1/3;
+    }
+    .pro-course-title {
+        font-size: 16px;
+        margin-top: 26px;
+        margin-left: 26px;
+        width: 74px;
+    }
+    .pro-drive-img {
+        width: 167px;
+        margin-top: 91px;
+    }
+    .tricks-course {
+        background: url('../img/1200px\ tricks\ background.svg');
+        width: 260px;
+        height: 171px;
+        grid-template-columns: 108px auto;
+    }
+    .tricks-course-title {
+        font-size: 16px;
+        width: 85px;
+        margin-top: 29px;
+        margin-left: 25px;
+    }
+    .trick-img {
+        width: 104px;
+        margin-left: 26px;
+        margin-top: 34px;
+    }
+    .contact-us {
+        grid-template-columns: 145px auto;
+    }
+    .contact-us h1 {
+        font-size: 16px;
+    }
+    .contact-us img {
+        width: 30px;
+    }
+    .achievments-section {
+        margin-top: 104px;
+    }
+    .achievments-title {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .slides {
+        grid-template-columns: 25px 153px 264px 153px 25px;
+        grid-column-gap: 60px;
+        margin-top: 47px;
+        justify-content: center;
+    }
+    .sliders-btn {
+        margin-top: 271px;
+        width: 25px;
+    }
+    .slide {
+        margin-top: 166px;
+        height: 235px;
+        width: 153px;
+    }
+    .natan-img {
+        width: 153px;
+    }
+    .natan-output {
+        background: url('../img/1200px\ background\ achivement\ fly.svg') no-repeat;
+        width: 153px;
+        height: 80px;
+        top: 155px;
+    }
+    .natan-title {
+        margin-top: 10px;
+    }
+    .people-title {
+        font-size: 12px;
+    }
+    .natan-record {
+        margin-top: 17px;
+        width: 100px;
+    }
+    .people-record {
+        font-size: 9px;
+    }
+    .slide.active {
+        margin-top: 0px;
+        width: 264px;
+    }
+    .ondrey-img {
+        width: 153px;
+    }
+    .active-img {
+        width: 264px;
+    }
+    .ondrey-output {
+        width: 153px;
+        height: 91.42px;
+        background: url('../img/1200px\ background\ achivement\ hour.png') no-repeat;
+        top: 138px;
+    }
+    .active-output {
+        width: 264px;
+        height: 138.72px;
+        top: 255px;
+    }
+    .active-title {
+        font-size: 18px;
+        width: 140px;
+    }
+    .active-record {
+        font-size: 15px;
+        width: 187px;
+    }
+    .fred-img {
+        width: 153px;
+    }
+    .fred-output {
+        background: url('../img/1200px\ background\ achivement\ speed.png') no-repeat;
+        width: 153px;
+        height: 80.14px;
+        top: 150px;
+    }
+    .fred-title {
+        width: 108px;
+    }
+    .fred-record {
+        margin-top: 8px;
+        width: 139px;
+    }
+    .contact-section {
+        margin-top: 132px;
+    }
+    .contact-window {
+        margin-top: 80px;
+        width: 679px;
+        height: 391px;
+        grid-template-columns: 261px auto;
+    }
+    .contact-window-preview {
+        width: 261.24px;
+        height: 391px;
+    }
+    .contact-preview-title {
+        margin-top: 50px;
+        width: 211px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .cyclist-img {
+        width: 148px;
+        margin-top: 40%;
+    }
+    .user-contacts {
+        margin-top: 66px;
+        width: 271px;
+        height: 124px;
+    }
+    .e-mail-title {
+        font-size: 17px;
+    }
+    .email-input {
+        font-size: 15px;
+    }
+    .phone-title {
+        margin-top: 50px;
+        font-size: 17px;
+    }
+    .phone-input {
+        font-size: 15px;
+    }
+    .submit-user-contacts {
+        margin-top: 81px;
+        width: 160px;
+        height: 47px;
+        font-size: 15px;
+    }
+    footer {
+        margin-top: 12.5%;
+    }
+    .footer-elem {
+        grid-template-columns: 166px 198px 186px;
+        grid-column-gap: 150px;
+        width: 854px;
+        margin-top: 45px;
+    }
+    .company-inf-title {
+        font-size: 20px;
+        height: 26px;
+    }
+    .company-btn {
+        font-size: 16px;
+    }
+    .company {
+        font-size: 20px;
+        height: 26px;
+    }
+    .footer-contacts {
+        margin-top: 11.5%;
+        grid-row-gap: 25px;
+    }
+    .company-contacts-title {
+        font-size: 20px;
+        height: 26px;
+    }
+    .company-telephone {
+        font-size: 16px;
+    }
+    .company-email-address {
+        font-size: 16px;
+    }
+    .networks-title {
+        height: 26px;
+        font-size: 20px;
+    }
+    .company-networks {
+        grid-column-gap: 25px;
+    }
+    .network img {
+        width: 30px;
+    }
+    .copy-right {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .header-bike {
+        width: 314px;
+    }
+    .nav_title {
+        grid-template-columns: 38px auto;
+        grid-column-gap: 15px;
+        padding-top: 50px;
+    }
+    .title_img {
+        width: 38px;
+    }
+    .main_title {
+        font-size: 14px;
+    }
+    nav {
+        margin-left: 38%;
+    }
+    .nav-btns {
+        grid-column-gap: 65px;
+    }
+    .nav-btn-back {
+        display: none;
+    }
+    .nav-btn {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .header-title {
+        margin-left: 0px;
+        margin-top: 15%;
+        width: 252px;
+    }
+    .header-title h1 {
+        font-size: 30px;
+    }
+    .title-info {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .shop-btn {
+        background: url('../img/992px\ background\ button.svg');
+        margin-top: 30px;   
+        width: 157px;
+        height: 45px;
+        grid-template-columns: 77px 28px;
+    }
+    .shop-link {
+        font-size: 16px
+    }
+    .shop-btn img {
+        width: 28px;
+    }
+    .training-section {
+        margin-top: 14.4%;
+    }
+    .training-title {
+        font-size: 20px;
+    }
+    .courses {
+        margin-top: 8.8%;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 22px;
+        grid-template-rows: 152px 93px;
+        grid-row-gap: 16px;
+    }
+    .mountains-course {
+        background: url('../img/992px\ background.svg') no-repeat;
+        width: 230px;
+        height: 152px;
+        grid-template-columns: 130px auto ;
+    }
+    .mountain-bicycle-img {
+        width: 130px;
+    }   
+    .mountains-course-title {
+        margin-top: 19px;
+        font-size: 15px;
+        width: 71px;
+    }
+    .go-shop {
+        background: url('../img/992px\ backround\ go\ shop.svg') no-repeat;
+        width: 230px;
+        height: 93.77px;
+        width: 200px;
+        grid-template-columns: 132px auto;
+        grid-column-gap: 15px;
+    }
+    .go-shop-title {
+        font-size: 15px;
+    }
+    .go-shop-line {
+        width: 32px;
+    }
+    .pro-course {
+        background: url('../img/992px\ background\ professional.svg') no-repeat top;
+        width: 181px;
+        height: 262px;
+    }
+    .pro-course-title {
+        font-size: 15px;
+    }
+    .pro-drive-img {
+        width: 146px;
+        margin-top: 41%;
+    }
+    .tricks-course {
+        background: url('../img/992px\ tricks\ background.svg') no-repeat;
+        width: 230px;
+        height: 152px;
+        grid-template-columns: 107px auto;
+    }
+    .tricks-course-title {
+        font-size: 15px;
+        width: 83px;
+        margin-top: 25px;
+    }
+    .trick-img {
+        width: 95px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .contact-us {
+        margin-top: 31px;
+    }
+    .contact-us h1 {
+        font-size: 15px;
+    }
+    .achievments-section {
+        margin-top: 9.6%;
+    }
+    .achievments-title {
+        font-size: 20px;
+    }
+    .slides {
+        grid-template-columns: 23px 129px 214.13px 129px 23px;
+        margin-top: 10%;
+        grid-column-gap: 50px;
+    }
+    .sliders-btn {
+        margin-top: 199px;
+        width: 23px;
+    }
+    .natan-img {
+        width: 129px;
+    }
+    .natan-output {
+        background: url('../img/992px\ background\ achivement\ fly.svg') no-repeat;
+        width: 129px;
+        height: 67.25px;
+        top: 125px;        
+    }
+    .natan-record {
+        margin-top: 10px;
+    }
+    .ondrey-output {
+        background: url('../img/992px\ background\ achivement\ hour.svg') no-repeat;
+        width: 129px;
+        height: 76.71px;
+    }
+    .ondrey-title {
+        width: 116px;
+    }
+    .ondrey-record {
+        width: 162px;
+    }
+    .fred-img {
+        width: 129px;
+        height: 125.75px;
+    }
+    .fred-output {
+        background: url('../img/992px\ background\ achivement\ speed.svg') no-repeat;
+        width: 129px;
+        height: 65.16px;
+        top: 115px;
+    }
+    .fred-title {
+        width: 99px;
+        margin-top: 8px;
+    }
+    .fred-record {
+        width: 124px;
+        margin-top: 4px;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    .people-title {
+        font-size: 11px;
+    }
+    .slide.active {
+        width: 214.13px;
+        height: 282px;
+    }
+    .active-img {
+        width: 214.13px;
+        height: 176.34px;
+    }
+    .active-output {
+        width: 214.13px;
+        height: 112.09px;
+        top: 169px;
+    }
+    .active-title {
+        font-size: 15px;
+    }
+    .active-record {
+        font-size: 13px;
+    }
+    .slide {
+        width: 129px;
+        height: 193px;
+        margin-top: 100px;
+    }
+    .contact-section {
+        margin-top: 100px;
+    }
+    .contact-title {
+        font-size: 20px;
+        width: 192px;
+    }
+    .contact-window {
+        margin-top: 62px;
+        width: 592.17px;
+        height: 340.13px;
+        grid-template-columns: 228px auto;
+    }
+    .contact-window-preview {
+        width: 228px;
+        height: 341px;
+    }
+    .contact-preview-title {
+        margin-top: 50px;
+        grid-template-columns: 40px auto;
+    }
+    .contact-preview-title img {
+        width: 40px;
+    }
+    .contact-preview-title h1 {
+        font-size: 16px;
+    }
+    .cyclist-img {
+        width: 130px;
+        margin-top: 32%;
+    }
+    .user-contacts {
+        margin-top: 60px;
+        width: 230px;
+    }
+    .e-mail-title {
+        font-size: 15px;
+    }
+    .email-input {
+        font-size: 14px;
+        width: 230px;
+    }
+    .phone-title {
+        font-size: 15px;
+    }
+    .phone-input {
+        font-size: 14px;
+        width: 230px;
+    }
+    .submit-user-contacts {
+        width: 135px;
+        height: 39px;
+        margin-top: 65px;
+        font-size: 13px;
+    }
+    .footer-elem {
+        width: 650px;
+        margin-top: 40px;
+        grid-template-columns: 148px 195px 145px;
+        grid-column-gap: 80px;
+    }
+    .company-inf-title {
+        font-size: 18px;
+        height: 24px;
+    }
+    .company-btns {
+        margin-top: 18px;
+    }
+    .company-btn {
+        font-size: 14px;
+    }
+    .footer-contacts {
+        grid-row-gap: 20px;
+    }
+    .company-contacts-title {
+        font-size: 18px;
+        height: 24px;
+    }
+    .company-phone img {
+        width: 20px;
+    }
+    .company-telephone{
+        font-size: 14px;
+    }
+    .company-email img {
+        width: 20px;
+    }
+    .company-email-address {
+        font-size: 14px;
+    }
+    .networks-title {
+        font-size: 18px;
+        height: 24px;
+    }
+    .company-networks {
+        grid-template-columns: 25px 25px 25px 25px;
+        grid-column-gap: 15px;
+        width: 145px;
+        margin-top: 15%;
+    }
+    .network img {
+        width: 25px;
+    }
+    .copy-right {
+        background: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .background {
+        background: url('../img/768px\ background\ page.svg') no-repeat top;
+    }
+    .container {
+        width: 540px;
+    }
+    .header-bike {
+        width: 280px;
+        margin-top: 19.5%;
+    }
+    .nav_title {
+        grid-template-columns: 35px auto;
+    }
+    .title_img {
+      width: 35px;  
+    }
+    .main_title {
+        font-size: 13px;
+    }
+    .nav-btns {
+        grid-column-gap: 35px;
+    }
+    .nav-btn {
+        font-size: 13px;
+    }
+    nav {
+        margin-left: 36%;
+    }
+    .header-title {
+        width: 231px;
+    }
+    .header-title h1 {
+        font-size: 28px;
+    }
+    .title-info {
+        font-size: 13px;
+        margin-top: 20px;
+        width: 231px;
+    }
+    .shop-btn {
+        background: url('../img/768px\ background\ button.svg') no-repeat;
+        width: 140px;
+        height: 40px;
+        margin-top: 20px;
+        grid-template-columns: 68px 25px;
+    }
+    .shop-link {
+        font-size: 14px;
+    }
+    .shop-btn img {
+        width: 25px;
+    }
+    .training-title {
+        font-size: 18px;
+    }
+    .courses {
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 15px;
+        grid-template-rows: 107px 74px;
+        grid-row-gap: 15px;
+    }
+    .mountains-course {
+        background: url('../img/768px\ background.svg') no-repeat;
+        width: 165px;
+        height: 107px;
+        grid-template-columns: 100px auto;
+        grid-column-gap: 0px;
+    }
+    .mountain-bicycle-img {
+        width: 100px;
+    }
+    .mountains-course-title {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .go-shop {
+        background: url('../img/768px\ background\ go\ to\ shop.svg')no-repeat;
+        width: 154px;
+        height: 74px;
+        grid-template-columns: 106px auto;
+        grid-column-gap: 5px;
+        padding-left: 12px;
+    }
+    .go-shop-title {
+        font-size: 12px;
+        width: 106px;
+    }
+    .go-shop-line {
+        width: 25px;
+    }
+    .pro-course {
+        background: url('../img/768px\ background\ professional.svg') no-repeat;
+        width: 130px;
+        height: 195px;
+    }
+    .pro-course-title {
+        font-size: 12px;
+        width: 55px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .pro-drive-img {
+        width: 110px;
+        margin-top: 48%;
+    }
+    .tricks-course {
+        background: url('../img/768px\ background\ tricks.svg') no-repeat;
+        width: 165px;
+        height: 107px;
+        grid-template-columns: 64px auto;
+    }
+    .tricks-course-title {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .trick-img {
+        width: 75px;
+        margin-top: 20px;
+    }
+    .contact-us {
+        grid-template-columns: 109px auto;
+        margin-top: 20px;
+    }
+    .contact-us h1 {
+        font-size: 12px;
+    }
+    .contact-us img {
+        width: 26px;
+    }
+    .achievments-title {
+        font-size: 18px;
+    }
+    .contact-section {
+        margin-top: 7%;
+    }
+    .contact-title {
+        font-size: 18px;
+        width: 158px;
+    }
+    .contact-window {
+        margin-top: 7%;
+        width: 448px;
+        height: 257px;
+        grid-template-columns: 164px auto;
+    }
+    .contact-window-preview {
+        width: 164px;
+        height: 257px;
+    }
+    .contact-preview-title {
+        grid-template-columns: 30px auto;
+        width: 146px;
+        margin-top: 25px;
+    }
+    .contact-preview-title img {
+        width: 30px;
+    }
+    .contact-preview-title h1 {
+        font-size: 13px;
+    }
+    .cyclist-img {
+        width: 105px;
+        margin-top: 33%;
+    }
+    .user-contacts {
+        margin-top: 40px;
+        width: 223px;
+    }
+    .e-mail-title {
+        font-size: 13px;
+    }
+    .email-input {
+        font-size: 12px;
+        width: 223px;
+    }
+    .phone-title {
+        font-size: 13px;
+        margin-top: 35px;
+    }
+    .phone-input {
+        font-size: 12px;
+        width: 223px;
+    }
+    .submit-user-contacts {
+        width: 104px;
+        height: 33px;
+        margin-top: 45px;
+        font-size: 11px;
+    }
+    .footer-elem {
+        margin-top: 5%;
+        grid-template-columns: 126px 166px 137px;
+        grid-column-gap: 6%;
+        width: 488px;
+    }
+    .company-inf-title {
+        font-size: 15px;
+        height: 20px;
+    }
+    .company-btns {
+        margin-top: 10%;
+        grid-row-gap: 15px;
+    }
+    .company-btn {
+        font-size: 12px;
+    }
+    .company-contacts-title {
+        font-size: 15px;
+        height: 20px;
+    }
+    .company-phone {
+        grid-template-columns: 18px auto;
+    }
+    .company-phone img {
+        width: 18px;
+    }
+    .company-telephone {
+        font-size: 12px;
+    }
+    .company-email {
+        grid-template-columns: 18px auto;
+    }
+    .company-email img {
+        width: 18px;
+    }
+    .company-email-address {
+        font-size: 12px;
+    }
+    .networks-title {
+        font-size: 15px;
+        height: 20px;
+    }
+    .company-networks {
+        grid-template-columns: 23px 23px 23px 23px;
+        width: 137px;
+    }
+    .network img {
+        width: 23px;
+    }
+    .copy-right {
+        font-size: 12px;
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 320px;
+    }
+    .background {
+        padding-top: 4%;
+    }
+    .nav_title {
+        display: none;
+    }
+    .menu-burger {
+        width: 30px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+        z-index: 3;
+        margin-left: 10%;
+        transition: all 1s ease 0s;
+    }
+    .menu-burger.active_menu {
+        margin-left: 140px;
+    }
+    .menu-burger::before,
+    .menu-burger::after {
+        content: '';
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .menu-burger span {
+        position: absolute;
+        background-color: white;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .menu-burger::before {
+        top: 0;
+    }
+    .menu-burger::after {
+        bottom: 0;
+    }
+    .menu-burger.active_menu::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .menu-burger.active_menu::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .menu-burger.active_menu span {
+        transform: scale(0);
+    }
+    .burger-logo {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: 32px 90px;
+        grid-column-gap: 10px;
+        transition: all 0.7s ease 0s;
+        margin-left: -100%;
+    }
+    .burger-logo.active-btns {
+        margin-left: 60px;
+    }
+    .burger-logo-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        display: grid;
+        align-self: center;
+    }
+    .burger-logo-img {
+        width: 32px;
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        opacity: 0;
+        transition: all 0.3s ease 0s;
+        margin-left: 0;
+        background: rgba(0, 0, 0, .8);
+    }
+    nav.active_menu {
+        opacity: 1;
+        overflow: hidden;
+    }
+    .nav-btns {
+        background: url('../img/background\ hamburger.svg') top;
+        width: 55%;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 18px 20px 17px 21px;
+        grid-row-gap: 30px;
+        padding-top: 0px;
+        left: -100%;
+        padding-top: 40px;
+    }
+    .nav-btns.active-btns {
+        left: 0;
+        transition: all 0.7s ease 0s;    
+    }
+    .nav-btn {
+        font-size: 17px;
+        margin-left: 60px;
+    }
+    .header-bike {
+        width: 42%;
+        margin-top: 16.5%;
+    }
+    .header-title {
+        width: 213px;
+        margin-left: 10%;
+    }
+    .header-title h1 {
+        font-size: 20px;
+        width: 147px;
+    }
+    .title-info {
+        font-size: 12px;
+        width: 213px;
+    }
+    .shop-btn {
+        background: url('../img/576px\ background\ button.svg') no-repeat;
+        width: 113px;
+        height: 33px;
+        grid-template-columns: 58px 20px;
+    }
+    .shop-link {
+        font-size: 12px;
+    }
+    .shop-btn img {
+        width: 20px;
+    }
+    .training-section {
+        margin-top: 10%
+    }
+    .training-title {
+        font-size: 16px;
+        margin-left: 10%;
+    }
+    .courses {
+        grid-template-columns: 116px 116px;
+        grid-column-gap: 20px;
+        grid-template-rows: 174px 174px;
+        width: 100%;
+        justify-content: center;
+    }
+    .mountains-course {
+        background: url('../img/576px\ background\ mountain\ ride.svg') no-repeat;
+        width: 116px;
+        height: 174px;
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+    }
+    .mountains-course-title {
+        margin-left: 12px;
+    }
+    .mountain-bicycle-img {
+        grid-row: 2/2;
+        width: 108px;
+        margin-top: 14px;
+    }
+    .pro-course {
+        background: url('../img/576pxbackground\ professional.svg') no-repeat;
+        width: 116px;
+        height: 174px;
+    }
+    .pro-course-title {
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+    .pro-drive-img {
+        width: 100px;
+        margin-top: 43%;
+    }
+    .tricks-course {
+        background: url('../img/576px\ background\ tricks.svg') no-repeat;
+        width: 116px;
+        height: 174px;
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+    .tricks-course-title {
+        margin-top: 22%;
+        margin-left: 12px;
+    }
+    .trick-img {
+        width: 85px;
+        margin: 0 auto;
+        margin-top: 21px;
+    }
+    .go-shop {
+        grid-column: 2/2;
+        grid-row: 2/2;
+        background: url('../img/576px\ background\ go\ to\ shop.svg') no-repeat;
+        width: 116px;
+        height: 174px;
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        align-content: start;
+        padding-left: 0px;
+    }
+    .go-shop-title {
+        width: 85px;
+        margin-top: 22%;
+        margin-left: 7px;
+    }
+    .go-shop-line {
+        display: none;
+    }
+    .shop-bike {
+        display: block;
+        margin: 0 auto;
+        margin-top: 45%;
+    }
+    .contact-us {
+        display: none
+    }
+    .contact-window {
+        width: 301px;
+        height: 173px;
+        grid-template-columns: 105px auto;
+    }
+    .contact-window-preview {
+        width: 105px;
+        height: 173px;
+    }
+    .contact-preview-title {
+        width: 95px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        grid-template-columns: 20px auto;
+        grid-column-gap: 5px;
+        margin-top: 18px;
+    }
+    .contact-preview-title img {
+        width: 20px;
+    }
+    .contact-preview-title h1 {
+        font-size: 11px;
+    }
+    .cyclist-img {
+        width: 70px;
+        margin-top: 39%;
+    }
+    .user-contacts {
+        width: 141px;
+        margin-top: 25px;
+    }
+    .e-mail-title {
+        font-size: 11px;
+    }
+    .email-input {
+        margin-top: 0px;
+        font-size: 10px;
+        width: 140px;
+    }
+    .phone-title {
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    .phone-input {
+        margin-top: 0px;
+        width: 140px;
+        font-size: 10px;
+    }
+    .submit-user-contacts {
+        margin-top: 20px;
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .footer-elem {
+        grid-template-columns: 119px 166px;
+        grid-column-gap: 30px;
+        width: 315px;
+        grid-row-gap: 30px;
+    }
+    .company-inf-title {
+        font-size: 14px;
+        height: 22px;
+    }
+    .company-btns {
+        grid-row-gap: 12px;
+        margin-top: 8%
+    }
+    .footer-contacts {
+        margin-top: 9%;
+    }
+    .company-contacts-title {
+        font-size: 14px;
+        height: 22px;
+    }
+    .copy-right {
+        margin-left: auto;
+        margin-top: 29%;
+    }
+}

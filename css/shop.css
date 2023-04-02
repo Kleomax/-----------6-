@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1180px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header-contacts {
+    width: 100%;
+    background: #151B22;
+    display: flex;
+    padding-bottom: 1%;
+}
+.inline-contacts {
+    display: flex;
+    align-items: center;
+    margin-top: 1.8%;
+    gap: 22%;
+}
+.header-logo {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+.header-logo-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+.phone-email {
+    display: flex;
+    gap: 5%;
+    height: 100px;
+    width: 100%;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding-right: 7%;
+    border-right: 1px solid white;
+}
+.phone-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.email-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF; 
+}
+.assortment {
+    background: #E6E6E6;
+    padding-top: 2.5%;
+    padding-bottom: 4%;
+}
+.navigation-list {
+    display: grid;
+    grid-template-columns: 6% 5.2% 7% 8.3%;
+    grid-column-gap: 10%;
+    justify-content: center;
+    list-style: none;
+}
+.nav-btn a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #151B22;
+    text-decoration: none;
+}
+.slides {
+    position: relative;
+}
+.slide {
+    margin-left: 15%;
+    margin-top: 8%;
+    display: none;
+    animation: slideAnimation 1s ease-in;
+}
+.active-slide {
+    display: block;
+}
+.price {
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.bicycle-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 1%;
+    width: 24%;
+    margin-left: 3%;
+}
+.fourth-bicycle-info {
+    width: 30%;
+    margin-left: 3%;
+}
+.buy-bicycle {
+    cursor: pointer;
+    padding: 1% 5%;
+    margin-top: 2%;
+    margin-left: 17.7%;
+    background: #151B22;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.slider-btns {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+}
+.next-btn {
+    cursor: pointer;
+    margin-bottom: 70%;
+}
+.prev-btn {
+    cursor: pointer;
+    transform: rotate(180deg);
+    margin-top: 80%;
+}
+.slider-dots {
+    display: grid;
+    grid-row-gap: 40px;
+    justify-content: center;
+    padding-top: 10%;
+}
+.slide-dot {
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: rgba(19, 62, 113, 0.7);
+}
+.active-dot {
+    background: black;
+}
+.first-dot {
+    margin-top: 10%
+}
+.products-section {
+    margin-top: 7%;
+    position: relative;
+}
+.products {
+    display: grid;
+    grid-template-columns: 22.4% 22.4% 22.4% 22.4%;
+    grid-column-gap: 2%;
+    grid-row-gap: 3%;
+    justify-content: center;
+}
+.product {
+    background: url('../shop-img/product\ background.svg') no-repeat top;
+    height: 111%;
+    width: 99%;
+}
+.product-photo {
+    display: block;
+    margin: 0 auto;
+}
+.helmet-photo {
+    width: 70%;
+    margin-top: 25%;
+}
+.product-info {
+    display: grid;
+    grid-row-gap: 14%;
+    margin-left: 18%;
+    margin-top: 1%;
+}
+.product-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.product-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.buy-btn {
+    width: 54%;
+    height: 31px;
+    background: #205A57;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+.star-photo {
+    margin-top: 25%;
+    width: 69.3%;
+}
+.star-info {
+    margin-top: 19.5%;
+}
+.flashlight-photo {
+    margin-top: 30%;
+    width: 69.2%;
+}
+.flashlight-info {
+    margin-top: 15.5%;
+}
+.knee-pads-photo {
+    margin-top: 21%;
+    width: 64.5%;
+}
+.knee-pads-info {
+    margin-top: 10%;
+}
+.chain-photo {
+    width: 75%;
+    margin-top: 34%;
+}
+.chain-info {
+    margin-top: 12%;
+}
+.brakes-photo {
+    width: 80%;
+    margin-top: 24%;
+}
+.brakes-info {
+    margin-top: 12.5%;
+}
+.wings-photo {
+    width: 73%;
+    margin-top: 33%;
+}
+.wings-info {
+    margin-top: 17.4%;
+}
+.elbow-pads-photo {
+    width: 59%;
+    margin-top: 23%;
+}
+.elbow-pads-info {
+    margin-top: 14.3%;
+}
+.filtering {
+    position: absolute;
+    top: 6%;
+    display: grid;
+    grid-row-gap: 22%;
+    margin-left: 2%;
+}
+.filter {
+    padding-bottom: 14%;
+    border-bottom: 2px solid #454545;
+    width: 150%;
+}
+input[type="checkbox"]:checked, 
+input[type="checkbox"]:not(:checked)
+{
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:not(:checked) + label{
+    display: inline-block;
+    position: relative;
+    padding-left: 18%;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="checkbox"]:checked + label:before, 
+input[type="checkbox"]:not(:checked) + label:before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 9%;
+    height: 75%;
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+input[type="checkbox"]:checked + label:before, 
+input[type="checkbox"]:not(:checked) + label:before {
+    border-radius: 2px;
+}
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after{
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after {
+    left: 2.5%;
+    top: 23%;
+    width: 4.7%;
+    height: 25%;
+    border-radius: 1px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+}
+input[type="checkbox"]:checked + label:after  {
+    opacity: 1;
+}
+input[type="checkbox"]:checked+label::before {
+    background-color: #0b76ef;
+}
+.filter-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.footer {
+    border-top: 2px solid #000000;
+    margin-top: 8%;
+}
+.footer-elem {
+    display: grid;
+    grid-template-columns: 16% 21.3% 18%;
+    grid-column-gap: 21%;
+    margin: 0 auto;
+    margin-top: 3.5%;
+}
+.footer-elem-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+    padding-left: 4%;
+    border-left: 2.5px solid #0029FF;
+    height: 18.5%;
+}
+.company-btns {
+    margin-top: 13%;
+    display: grid;
+    grid-row-gap: 25%;
+}
+.footer-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: black;
+}
+.footer-contacts {
+    margin-top: 11%;
+    display: grid;
+    grid-row-gap: 55%;
+}
+.company-phone {
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-column-gap: 5%;
+}
+.company-telephone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: black;
+}
+.company-email {
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-column-gap: 8%;
+}
+.company-email-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: black;
+}
+.company-networks {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10%;
+    margin-top: 13%;
+}
+.network img {
+    width: 95%;
+}
+.copy-right {
+    margin-top: 40%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+@keyframes slideAnimaton {
+    from{transform: rotate(360deg); margin-left: -100%; margin-top: -100%;}
+    to{transform: rotate(0deg); margin-left: 20%; margin-top: 8%;}
+}
