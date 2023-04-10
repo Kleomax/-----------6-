@@ -9,7 +9,6 @@ let index = 0;
 const activeSlide = (n) => {
     for(slides of slide ){
         slides.classList.remove('active-slide');
-        console.log(index)
     }
     slide[n].classList.add('active-slide');
 };

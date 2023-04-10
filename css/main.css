@@ -266,7 +266,16 @@ nav {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 90px;
-
+}
+.smaller-slides {
+    display: none;
+}
+.smallest-slides {
+    display: none;
+}
+.slide {
+    position: relative;
+    margin-top: 219px; 
 }
 .sliders-btn {
     margin-top: 346px;
@@ -277,10 +286,6 @@ nav {
 }
 .next-btn {
     grid-column: 5/5;
-}
-.natan {
-    position: relative;
-    margin-top: 219px;
 }
 .natan-title {
     font-family: 'Roboto';
@@ -293,15 +298,13 @@ nav {
     margin-top: 18px;
 }
 .natan-record {
-    width: 113px;
+    width: 63%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     color: #FFFFFF;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     margin-top: 18px;
 }
 .natan-output {
@@ -311,10 +314,6 @@ nav {
     z-index: 999;
     position: absolute;
     top: 187px;
-}
-.ondrey {
-    position: relative;
-    margin-top: 111px;
 }
 .ondrey-img {
     width: 191px;
@@ -331,27 +330,23 @@ nav {
 }
 .ondrey-title {
     color: #FFFFFF;
-    margin: 0 auto;
     padding-top: 22px;
-    width: 155px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+    display: grid;
+    justify-content: center;
 }
 .ondrey-record {
+    width: 71%;
     color: #FFFFFF;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 212px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
-}
-.fred {
-    position: relative;
-    margin-top: 219px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .fred-img {
     width: 191px;
@@ -366,22 +361,21 @@ nav {
     top: 187px;
 }
 .fred-title {
-    width: 135px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     color: #000000;
-    margin: 0 auto;
+    display: grid;
+    justify-content: center;    
     margin-top: 18px;    
 }
 .fred-record {
-    width: 155px;
+    width: 88%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
-    line-height: 12px;
     color: #000000;
     margin: 0 auto;
     margin-top: 10px;
@@ -866,39 +860,18 @@ footer {
     }
     .natan-record {
         margin-top: 17px;
-        width: 100px;
     }
     .people-record {
         font-size: 9px;
     }
-    .slide.active {
-        margin-top: 0px;
-        width: 264px;
-    }
     .ondrey-img {
         width: 153px;
-    }
-    .active-img {
-        width: 264px;
     }
     .ondrey-output {
         width: 153px;
         height: 91.42px;
         background: url('../img/1200px\ background\ achivement\ hour.png') no-repeat;
         top: 138px;
-    }
-    .active-output {
-        width: 264px;
-        height: 138.72px;
-        top: 255px;
-    }
-    .active-title {
-        font-size: 18px;
-        width: 140px;
-    }
-    .active-record {
-        font-size: 15px;
-        width: 187px;
     }
     .fred-img {
         width: 153px;
@@ -909,12 +882,26 @@ footer {
         height: 80.14px;
         top: 150px;
     }
-    .fred-title {
-        width: 108px;
-    }
     .fred-record {
-        margin-top: 8px;
-        width: 139px;
+        margin-top: 3px;
+    }
+    .slide.active {
+        margin-top: 0px;
+        width: 264px;
+    }
+    .active-img {
+        width: 264px;
+    }
+    .active-output {
+        width: 264px;
+        height: 121.6px;
+        top: 255px;
+    }
+    .active-title {
+        font-size: 18px;
+    }
+    .active-record {
+        font-size: 15px;
     }
     .contact-section {
         margin-top: 132px;
@@ -1153,6 +1140,9 @@ footer {
         margin-top: 10%;
         grid-column-gap: 50px;
     }
+    .slide {
+        height: 142px;
+    }
     .sliders-btn {
         margin-top: 199px;
         width: 23px;
@@ -1166,39 +1156,47 @@ footer {
         height: 67.25px;
         top: 125px;        
     }
+    .natan-title {
+        margin-top: 9%;
+    }
     .natan-record {
-        margin-top: 10px;
+        width: 67%;
+        margin-top: 6%;
+    }
+    .ondrey-img {
+        width: 129px;
+        height: 130px;
     }
     .ondrey-output {
         background: url('../img/992px\ background\ achivement\ hour.svg') no-repeat;
         width: 129px;
-        height: 76.71px;
+        height: 67px;
+        top: 125px;
     }
     .ondrey-title {
-        width: 116px;
+        padding-top: 10%;
     }
     .ondrey-record {
-        width: 162px;
+        width: 76%;
+        margin-top: 5%;
     }
     .fred-img {
         width: 129px;
-        height: 125.75px;
+        height: 130.75px;
     }
     .fred-output {
         background: url('../img/992px\ background\ achivement\ speed.svg') no-repeat;
         width: 129px;
-        height: 65.16px;
-        top: 115px;
+        height: 67.16px;
+        top: 125px;
     }
     .fred-title {
-        width: 99px;
         margin-top: 8px;
     }
     .fred-record {
-        width: 124px;
+        width: 79%;
         margin-top: 4px;
         font-size: 8px;
-        font-weight: 600;
     }
     .people-title {
         font-size: 11px;
@@ -1468,8 +1466,87 @@ footer {
     .achievments-title {
         font-size: 18px;
     }
+    .slides {
+        display: none;
+    }
+    .smaller-slides {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 4% 39% 4%;
+        grid-column-gap: 7.5%;
+        margin-top: 8.5%;
+    }
+    .smaller-sliders-btn {
+        width: 23px;
+        margin-top: 116px;
+        cursor: pointer;
+    }
+    .smaller-slide {
+        width: 100%;
+        position: relative;
+        display: none;
+    }
+    .smaller-slide.active-slide {
+        display: block;
+    }
+    .smaller-people-img {
+        width: 100%;
+        height: 100%;
+    }
+    .smaller-people-output {
+        position: absolute;
+        top: 97%;
+        width: 100%;
+        height: 56%;
+        display: grid;
+        justify-items: center;
+    }
+    .smaller-people-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;        
+        color: #FFFFFF;
+        margin-top: 9%;
+    }
+    .smaller-people-record {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+    .smaller-natan-img {
+        height: 83%;
+    }
+    .smaller-natan-output {
+        background: url('../img/768px\ background\ achivement\ fly.svg') no-repeat;
+        height: 41%;
+        top: 81%;
+    }
+    .smaller-natan-record {
+        width: 70%;
+    }
+    .smaller-ondrey-output {
+        background: url('../img/768px\ background\ achivement\ hour.svg') no-repeat;
+    }
+    .smaller-ondrey-record {
+        width: 71%;
+    }
+    .smaller-fred-output {
+        background: url('../img/768px\ background\ achivement\ speed.svg') no-repeat;
+    }
+    .smaller-fred-title {
+        color: black;
+    }
+    .smaller-fred-record {
+        color: black;
+        width: 87%;
+    }
     .contact-section {
-        margin-top: 7%;
+        margin-top: 18%;
     }
     .contact-title {
         font-size: 18px;
@@ -1662,6 +1739,10 @@ footer {
         width: 32px;
     }
     nav {
+        display: none;
+    }
+    nav.active_menu {
+        display: block;
         position: fixed;
         width: 100%;
         height: 100%;
@@ -1670,8 +1751,6 @@ footer {
         transition: all 0.3s ease 0s;
         margin-left: 0;
         background: rgba(0, 0, 0, .8);
-    }
-    nav.active_menu {
         opacity: 1;
         overflow: hidden;
     }
@@ -1809,8 +1888,31 @@ footer {
         margin: 0 auto;
         margin-top: 45%;
     }
+    .achievments-title {
+        margin-left: 10%;
+    }
+    .smaller-slides {
+        grid-template-columns: 6% 60% 6%;
+        margin-top: 11%;
+    }
+    .smaller-people-output {
+        height: 55%;
+    }
+    .smaller-people-title {
+        font-size: 13px;
+        margin-top: 7%;
+    }
+    .smaller-people-record {
+        font-size: 11px;
+    }
+    .smaller-ondrey-record {
+        width: 72%;
+    }
     .contact-us {
         display: none
+    }
+    .contact-section {
+        margin-top: 118px;
     }
     .contact-window {
         width: 301px;

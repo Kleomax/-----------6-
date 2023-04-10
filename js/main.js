@@ -35,84 +35,116 @@ mainBtn.addEventListener('mouseover', () => {
 const prevBtn = document.querySelector('.prev-btn'),
 nextBtn = document.querySelector('.next-btn'),
 slide = document.querySelectorAll('.slide'),
-activeImg = document.querySelector('.people-img'),
-activeOutput = document.querySelector('.people-output'),
-activeTitle = document.querySelector('.people-title'),
-activeRecord = document.querySelector('.people-record'),
-active = document.querySelector('.active');
+slideImg = document.querySelectorAll('.people-img'),
+slideOutput = document.querySelectorAll('.people-output'),
+slideTitle = document.querySelectorAll('.people-title'),
+slideRecord = document.querySelectorAll('.people-record');
 
 let index = 0;
 
-let activeImgs;
+let slideImgs;
 let slides;
 const activeSlide = (n) => {
-    for(slides of slide ){
+    for(slides of slide ) {
         slides.classList.remove('active');
-        activeImg.classList.remove('active-img');
     }
     slide[n].classList.add('active');
-    activeImg[n].classList.add('active-img');
-    activeOutput[n].classList.add('active-output');
+};
+const activePicture = (n) => {
+    for(slideImgs of slideImg) {
+        slideImgs.classList.remove('active-img')
+    }
+    slideImg[n].classList.add('active-img');
+};
+const activeOutput = (n) => {
+    for(slideOutputs of slideOutput) {
+        slideOutputs.classList.remove('active-output')
+    }
+    slideOutput[n].classList.add('active-output');
+};
+const activeTitle = (n) => {
+    for(slideTitles of slideTitle) {
+        slideTitles.classList.remove('active-title')
+    }
+    slideTitle[n].classList.add('active-title');
+};
+const activeRecord = (n) => {
+    for(slideRecords of slideRecord) {
+        slideRecords.classList.remove('active-record')
+    }
+    slideRecord[n].classList.add('active-record');
+};
+function activeItems() {
+    activePicture(index);
+    activeSlide(index);
+    activeOutput(index);
+    activeTitle(index);
+    activeRecord(index);
 };
 
 const nextSlide = () => {
     if(index === slide.length - 1) {
         index = 0;
-        activeSlide(index);
+        activeItems(index);
     }
     else {
         index++;
-        activeSlide(index);
+        activeItems(index);
     };
 };
 
 const prevSlide = () => {
     if(index === 0) {
         index = slide.length - 1;
-        activeSlide(index);
+        activeItems(index);
     }
     else {
         index--;
-        activeSlide(index);
+        activeItems(index);
     };
 };
 
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
-let index2 = 0;
 
-const activeSlide2 = (a) => {
-    for(activeImgs of activeImg ){
-        activeImgs.classList.remove('active-img');
+const smallerPrevBtn = document.querySelector('.smaller-prev-btn'),
+smallerNextBtn = document.querySelector('.smaller-next-btn'),
+smallerSlide = document.querySelectorAll('.smaller-slide');
+
+let smallerSlides;
+let index2 = 0;
+const smallerActiveSlide = (n) => {
+    for(smallerSlides of smallerSlide ) {
+        smallerSlides.classList.remove('active-slide');
     }
-    activeImg[a].classList.add('active-img');
+    smallerSlide[n].classList.add('active-slide');
 };
 
-const nextSlide2 = () => {
-    if(index2 === activeImg.length - 1) {
+const smallerNextSlide = () => {
+    if(index2 === smallerSlide.length - 1) {
         index2 = 0;
-        activeSlide2(index2);
+        smallerActiveSlide(index2);
     }
     else {
         index2++;
-        activeSlide2(index2);
+        smallerActiveSlide(index2);
     };
 };
 
-const prevSlide2 = () => {
+const smallerPrevSlide = () => {
     if(index2 === 0) {
-        index2 = activeImg.length - 1;
-        activeSlide2(index2);
+        index2 = smallerSlide.length - 1;
+        smallerActiveSlide(index2);
     }
     else {
         index2--;
-        activeSlide2(index2);
+        smallerActiveSlide(index2);
     };
 };
 
-nextBtn.addEventListener('click', nextSlide);
-prevBtn.addEventListener('click', prevSlide);
+smallerNextBtn.addEventListener('click', smallerNextSlide);
+smallerPrevBtn.addEventListener('click', smallerPrevSlide);
 
 
 function slowScroll(id) { 

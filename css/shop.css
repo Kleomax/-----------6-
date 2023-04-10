@@ -101,6 +101,9 @@ a {
 .active-slide {
     display: block;
 }
+.bicycle-img {
+    width: 67%;
+}
 .price {
     margin-left: 3%;
     margin-top: 2%;
@@ -138,7 +141,7 @@ a {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 90%;
 }
 .next-btn {
@@ -203,14 +206,14 @@ a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
 }
 .product-price {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 }
 .buy-btn {
@@ -221,7 +224,7 @@ a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     color: #FFFFFF;
     text-align: center;
     cursor: pointer;
@@ -330,7 +333,7 @@ input[type="checkbox"]:not(:checked) + label:after{
 input[type="checkbox"]:checked + label:after, 
 input[type="checkbox"]:not(:checked) + label:after {
     left: 2.5%;
-    top: 23%;
+    top: 19%;
     width: 4.7%;
     height: 25%;
     border-radius: 1px;
@@ -440,4 +443,24 @@ input[type="checkbox"]:checked+label::before {
 @keyframes slideAnimaton {
     from{transform: rotate(360deg); margin-left: -100%; margin-top: -100%;}
     to{transform: rotate(0deg); margin-left: 20%; margin-top: 8%;}
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 320px;
+    }
 }
