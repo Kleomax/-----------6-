@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,7 @@ body {
     padding: 0;
 }
 .background {
-    background: url('../img/background\ web.svg') no-repeat center top;
+    background: url('../img/background\ web.png') no-repeat center top;
 }
 .animation-loading {
     animation: sectionsAnimation 1s ease-in-out;
@@ -111,7 +110,7 @@ nav {
     width: 302px;
 }
 .shop-btn {
-    background: url('../img/background\ button.svg');
+    background: url('../img/background\ button.png');
     margin-top: 37px;
     width: 238.57px;
     height: 59px;
@@ -121,7 +120,6 @@ nav {
     grid-template-columns: 96px 41px;
     justify-content: center;
     grid-column-gap: 15px;
-
 }
 .shop-link {
     font-family: 'Roboto';
@@ -150,7 +148,7 @@ nav {
 
 }
 .mountains-course {
-    background: url('../img/background.svg');
+    background: url('../img/background\ mountain\ ride.png');
     width: 325px;
     height: 213px;
     display: grid;
@@ -167,7 +165,7 @@ nav {
     color: white;
 }
 .go-shop {
-    background: url('../img/backround\ go\ shop.svg');
+    background: url('../img/backround\ go\ shop.png');
     width: 289px;
     height: 133px;
     grid-column: 1/1;
@@ -193,7 +191,7 @@ nav {
     display: none;
 }
 .pro-course {
-    background: url('../img/background\ professional.svg');
+    background: url('../img/background\ professional.png');
     width: 281px;
     height: 395px;
     grid-column: 2/2;
@@ -215,7 +213,7 @@ nav {
     margin-top: 117px;
 }
 .tricks-course {
-    background: url('../img/tricks\ background.svg');
+    background: url('../img/background\ learn\ tricks.png');
     width: 325px;
     height: 213px;
     display: grid;
@@ -308,7 +306,7 @@ nav {
     margin-top: 18px;
 }
 .natan-output {
-    background-image: url('../img/background\ achivement\ fly.svg');
+    background: url('../img/background\ achivement\ fly.png') no-repeat;
     width: 191px;
     height: 100px;
     z-index: 999;
@@ -320,7 +318,7 @@ nav {
     height: 193px;
 }
 .ondrey-output {
-    background-image: url('../img/background\ achivement\ hour.svg');
+    background: url('../img/background\ achivement\ hour.png') no-repeat;
     width: 299px;
     height: 157px;
     position: absolute;
@@ -353,7 +351,7 @@ nav {
     height: 193px;
 }
 .fred-output {
-    background-image: url('../img/background\ achivement\ speed.svg');
+    background: url('../img/background\ achivement\ speed.png') no-repeat;
     width: 191px;
     height: 100px;
     z-index: 999;
@@ -670,7 +668,7 @@ footer {
         margin-top: 177px;
     }
     .background {
-        background: url('../img/1200px\ background\ web.svg') no-repeat top;
+        background: url('../img/1200px\ background\ web.png') no-repeat top;
     }
     .nav_title {
         padding-top: 40px;
@@ -710,7 +708,7 @@ footer {
     }
     .header-title {
         margin-top: 16.9%;
-        margin-left: 74px;
+        margin-left: 6%;
         width: 265px;
     }
     .header-title h1 {
@@ -722,7 +720,7 @@ footer {
         width: 285px;
     }
     .shop-btn {
-        background: url('../img/1200px\ background\ button.svg') no-repeat;
+        background: url('../img/1200px\ background\ button.png') no-repeat;
         margin-top: 32px;
         width: 176px;
         height: 48px;
@@ -740,16 +738,18 @@ footer {
     }
     .training-title {
         font-size: 22px;
+        margin-left: 6%;
     }
     .courses {
         margin-top: 107px;
+        margin-left: 6%;
         grid-template-columns: auto auto auto;
         grid-column-gap: 61px;
         grid-template-rows: 171px 106px;
         grid-row-gap: 26px;
     }
     .mountains-course {
-        background: url('../img/1200px\ background.svg') no-repeat top;
+        background: url('../img/1200px\ background\ mountain\ ride.png') no-repeat top;
         width: 260px;
         height: 171px;
         grid-template-columns: 144px auto;
@@ -764,7 +764,7 @@ footer {
         width: 76px;
     }
     .go-shop {
-        background: url('../img/1200px\ backround\ go\ shop.svg') no-repeat top;
+        background: url('../img/1200px\ backround\ go\ shop.png') no-repeat top;
         width: 230px;
         height: 106px;
         grid-template-columns: 141px auto;
@@ -779,7 +779,7 @@ footer {
         width: 43px;
     }
     .pro-course {
-        background: url('../img/1200px\ background\ professional.svg') no-repeat top;
+        background: url('../img/1200px\ background\ professional.png') no-repeat top;
         width: 206px;
         height: 303px;
         grid-column: 2/2;
@@ -796,7 +796,7 @@ footer {
         margin-top: 91px;
     }
     .tricks-course {
-        background: url('../img/1200px\ tricks\ background.svg');
+        background: url('../img/1200px\ background\ learn\ tricks.png');
         width: 260px;
         height: 171px;
         grid-template-columns: 108px auto;
@@ -827,6 +827,7 @@ footer {
     .achievments-title {
         font-weight: 600;
         font-size: 22px;
+        margin-left: 6%;
     }
     .slides {
         grid-template-columns: 25px 153px 264px 153px 25px;
@@ -847,19 +848,23 @@ footer {
         width: 153px;
     }
     .natan-output {
-        background: url('../img/1200px\ background\ achivement\ fly.svg') no-repeat;
+        background: url('../img/1200px\ background\ achivement\ fly.png') no-repeat;
         width: 153px;
         height: 80px;
         top: 155px;
     }
     .natan-title {
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .people-title {
         font-size: 12px;
     }
     .natan-record {
-        margin-top: 17px;
+        margin-top: 15px;
+        width: 65%;
+    }
+    .natan-record.active-record {
+        margin-top: 20px;
     }
     .people-record {
         font-size: 9px;
@@ -1005,6 +1010,9 @@ footer {
     .header-bike {
         width: 314px;
     }
+    .background {
+        background: url('../img/992px\ background\ web.png') no-repeat top;
+    }
     .nav_title {
         grid-template-columns: 38px auto;
         grid-column-gap: 15px;
@@ -1042,7 +1050,7 @@ footer {
         margin-top: 30px;
     }
     .shop-btn {
-        background: url('../img/992px\ background\ button.svg');
+        background: url('../img/992px\ background\ button.png');
         margin-top: 30px;   
         width: 157px;
         height: 45px;
@@ -1068,7 +1076,7 @@ footer {
         grid-row-gap: 16px;
     }
     .mountains-course {
-        background: url('../img/992px\ background.svg') no-repeat;
+        background: url('../img/992px\ background\ mountain\ ride.png') no-repeat;
         width: 230px;
         height: 152px;
         grid-template-columns: 130px auto ;
@@ -1082,7 +1090,7 @@ footer {
         width: 71px;
     }
     .go-shop {
-        background: url('../img/992px\ backround\ go\ shop.svg') no-repeat;
+        background: url('../img/992px\ backround\ go\ shop.png') no-repeat;
         width: 230px;
         height: 93.77px;
         width: 200px;
@@ -1096,7 +1104,7 @@ footer {
         width: 32px;
     }
     .pro-course {
-        background: url('../img/992px\ background\ professional.svg') no-repeat top;
+        background: url('../img/992px\ background\ professional.png') no-repeat top;
         width: 181px;
         height: 262px;
     }
@@ -1108,7 +1116,7 @@ footer {
         margin-top: 41%;
     }
     .tricks-course {
-        background: url('../img/992px\ tricks\ background.svg') no-repeat;
+        background: url('../img/992px\ background\ learn\ tricks.png') no-repeat;
         width: 230px;
         height: 152px;
         grid-template-columns: 107px auto;
@@ -1151,7 +1159,7 @@ footer {
         width: 129px;
     }
     .natan-output {
-        background: url('../img/992px\ background\ achivement\ fly.svg') no-repeat;
+        background: url('../img/992px\ background\ achivement\ fly.png') no-repeat;
         width: 129px;
         height: 67.25px;
         top: 125px;        
@@ -1168,7 +1176,7 @@ footer {
         height: 130px;
     }
     .ondrey-output {
-        background: url('../img/992px\ background\ achivement\ hour.svg') no-repeat;
+        background: url('../img/992px\ background\ achivement\ hour.png') no-repeat;
         width: 129px;
         height: 67px;
         top: 125px;
@@ -1185,7 +1193,7 @@ footer {
         height: 130.75px;
     }
     .fred-output {
-        background: url('../img/992px\ background\ achivement\ speed.svg') no-repeat;
+        background: url('../img/992px\ background\ achivement\ speed.png') no-repeat;
         width: 129px;
         height: 67.16px;
         top: 125px;
@@ -1334,7 +1342,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
     .background {
-        background: url('../img/768px\ background\ page.svg') no-repeat top;
+        background: url('../img/768px\ background\ page.png') no-repeat top;
     }
     .container {
         width: 540px;
@@ -1373,7 +1381,7 @@ footer {
         width: 231px;
     }
     .shop-btn {
-        background: url('../img/768px\ background\ button.svg') no-repeat;
+        background: url('../img/768px\ background\ button.png') no-repeat;
         width: 140px;
         height: 40px;
         margin-top: 20px;
@@ -1395,7 +1403,7 @@ footer {
         grid-row-gap: 15px;
     }
     .mountains-course {
-        background: url('../img/768px\ background.svg') no-repeat;
+        background: url('../img/background\ 768px\ mountain\ ride.png') no-repeat;
         width: 165px;
         height: 107px;
         grid-template-columns: 100px auto;
@@ -1409,7 +1417,7 @@ footer {
         margin-top: 10px;
     }
     .go-shop {
-        background: url('../img/768px\ background\ go\ to\ shop.svg')no-repeat;
+        background: url('../img/768px\ background\ go\ to\ shop.png')no-repeat;
         width: 154px;
         height: 74px;
         grid-template-columns: 106px auto;
@@ -1424,7 +1432,7 @@ footer {
         width: 25px;
     }
     .pro-course {
-        background: url('../img/768px\ background\ professional.svg') no-repeat;
+        background: url('../img/768px\ background\ professional.png') no-repeat;
         width: 130px;
         height: 195px;
     }
@@ -1439,7 +1447,7 @@ footer {
         margin-top: 48%;
     }
     .tricks-course {
-        background: url('../img/768px\ background\ tricks.svg') no-repeat;
+        background: url('../img/768px\ background\ tricks.png') no-repeat;
         width: 165px;
         height: 107px;
         grid-template-columns: 64px auto;
@@ -1522,7 +1530,7 @@ footer {
         height: 83%;
     }
     .smaller-natan-output {
-        background: url('../img/768px\ background\ achivement\ fly.svg') no-repeat;
+        background: url('../img/768px\ background\ achivement\ fly.png') no-repeat;
         height: 41%;
         top: 81%;
     }
@@ -1530,13 +1538,13 @@ footer {
         width: 70%;
     }
     .smaller-ondrey-output {
-        background: url('../img/768px\ background\ achivement\ hour.svg') no-repeat;
+        background: url('../img/768px\ background\ achivement\ hour.png') no-repeat;
     }
     .smaller-ondrey-record {
         width: 71%;
     }
     .smaller-fred-output {
-        background: url('../img/768px\ background\ achivement\ speed.svg') no-repeat;
+        background: url('../img/768px\ background\ achivement\ speed.png') no-repeat;
     }
     .smaller-fred-title {
         color: black;
@@ -1755,7 +1763,7 @@ footer {
         overflow: hidden;
     }
     .nav-btns {
-        background: url('../img/background\ hamburger.svg') top;
+        background: url('../img/background\ hamburger.png') top;
         width: 55%;
         height: 100%;
         border-top-right-radius: 10px;
@@ -1793,7 +1801,7 @@ footer {
         width: 213px;
     }
     .shop-btn {
-        background: url('../img/576px\ background\ button.svg') no-repeat;
+        background: url('../img/576px\ background\ button.png') no-repeat;
         width: 113px;
         height: 33px;
         grid-template-columns: 58px 20px;
@@ -1817,9 +1825,10 @@ footer {
         grid-template-rows: 174px 174px;
         width: 100%;
         justify-content: center;
+        margin-top: 10%
     }
     .mountains-course {
-        background: url('../img/576px\ background\ mountain\ ride.svg') no-repeat;
+        background: url('../img/576px\ background\ mountain\ ride.png') no-repeat;
         width: 116px;
         height: 174px;
         grid-template-columns: none;
@@ -1834,7 +1843,7 @@ footer {
         margin-top: 14px;
     }
     .pro-course {
-        background: url('../img/576pxbackground\ professional.svg') no-repeat;
+        background: url('../img/576\ pxbackground\ professional.png') no-repeat;
         width: 116px;
         height: 174px;
     }
@@ -1847,7 +1856,7 @@ footer {
         margin-top: 43%;
     }
     .tricks-course {
-        background: url('../img/576px\ background\ tricks.svg') no-repeat;
+        background: url('../img/576px\ background\ tricks.png') no-repeat;
         width: 116px;
         height: 174px;
         grid-template-columns: none;
@@ -1867,7 +1876,7 @@ footer {
     .go-shop {
         grid-column: 2/2;
         grid-row: 2/2;
-        background: url('../img/576px\ background\ go\ to\ shop.svg') no-repeat;
+        background: url('../img/576px\ background\ go\ to\ shop.png') no-repeat;
         width: 116px;
         height: 174px;
         grid-template-columns: none;
@@ -1907,6 +1916,15 @@ footer {
     }
     .smaller-ondrey-record {
         width: 72%;
+    }
+    .smaller-natan-output {
+        height: 42%;
+    }
+    .smaller-natan-record {
+        width: 63%;
+    }
+    .smaller-fred-record {
+        width: 89%;
     }
     .contact-us {
         display: none
