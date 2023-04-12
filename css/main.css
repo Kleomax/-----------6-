@@ -273,7 +273,7 @@ nav {
 }
 .slide {
     position: relative;
-    margin-top: 219px; 
+    margin-top: 219px;
 }
 .sliders-btn {
     margin-top: 346px;
@@ -406,7 +406,6 @@ nav {
 }
 .contact-section {
     margin-top: 200px;
-    
 }
 .contact-title {
     font-family: 'Roboto';
@@ -708,7 +707,7 @@ footer {
     }
     .header-title {
         margin-top: 16.9%;
-        margin-left: 6%;
+        margin-left: 9%;
         width: 265px;
     }
     .header-title h1 {
@@ -738,15 +737,15 @@ footer {
     }
     .training-title {
         font-size: 22px;
-        margin-left: 6%;
+        margin-left: 9%;
     }
     .courses {
         margin-top: 107px;
-        margin-left: 6%;
+        margin-left: 9%;
         grid-template-columns: auto auto auto;
-        grid-column-gap: 61px;
+        grid-column-gap: 30px;
         grid-template-rows: 171px 106px;
-        grid-row-gap: 26px;
+        grid-row-gap: 30px;
     }
     .mountains-course {
         background: url('../img/1200px\ background\ mountain\ ride.png') no-repeat top;
@@ -766,7 +765,7 @@ footer {
     .go-shop {
         background: url('../img/1200px\ backround\ go\ shop.png') no-repeat top;
         width: 230px;
-        height: 106px;
+        height: 102px;
         grid-template-columns: 141px auto;
         padding-left: 30.85px;
         grid-column-gap: 10px;
@@ -827,7 +826,7 @@ footer {
     .achievments-title {
         font-weight: 600;
         font-size: 22px;
-        margin-left: 6%;
+        margin-left: 9%;
     }
     .slides {
         grid-template-columns: 25px 153px 264px 153px 25px;
@@ -1038,7 +1037,7 @@ footer {
         font-weight: 600;
     }
     .header-title {
-        margin-left: 0px;
+        margin-left: 2.4%;
         margin-top: 15%;
         width: 252px;
     }
@@ -1067,6 +1066,7 @@ footer {
     }
     .training-title {
         font-size: 20px;
+        margin-left: 2.4%;
     }
     .courses {
         margin-top: 8.8%;
@@ -1074,6 +1074,7 @@ footer {
         grid-column-gap: 22px;
         grid-template-rows: 152px 93px;
         grid-row-gap: 16px;
+        margin-left: 2.4%;
     }
     .mountains-course {
         background: url('../img/992px\ background\ mountain\ ride.png') no-repeat;
@@ -1142,6 +1143,7 @@ footer {
     }
     .achievments-title {
         font-size: 20px;
+        margin-left: 2.4%;
     }
     .slides {
         grid-template-columns: 23px 129px 214.13px 129px 23px;
@@ -1371,6 +1373,7 @@ footer {
     }
     .header-title {
         width: 231px;
+        margin-left: 5%;
     }
     .header-title h1 {
         font-size: 28px;
@@ -1395,12 +1398,14 @@ footer {
     }
     .training-title {
         font-size: 18px;
+        margin-left: 5%;
     }
     .courses {
         grid-template-columns: auto auto auto;
         grid-column-gap: 15px;
         grid-template-rows: 107px 74px;
         grid-row-gap: 15px;
+        margin-left: 5%;
     }
     .mountains-course {
         background: url('../img/background\ 768px\ mountain\ ride.png') no-repeat;
@@ -1473,11 +1478,13 @@ footer {
     }
     .achievments-title {
         font-size: 18px;
+        margin-left: 5%;
     }
     .slides {
         display: none;
     }
     .smaller-slides {
+        margin-left: 5%;
         display: grid;
         justify-content: center;
         grid-template-columns: 4% 39% 4%;
@@ -1825,7 +1832,8 @@ footer {
         grid-template-rows: 174px 174px;
         width: 100%;
         justify-content: center;
-        margin-top: 10%
+        margin-top: 10%;
+        margin-left: 0%;
     }
     .mountains-course {
         background: url('../img/576px\ background\ mountain\ ride.png') no-repeat;

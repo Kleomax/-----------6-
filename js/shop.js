@@ -47,3 +47,14 @@ const prevSlide = () => {
 
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
+
+
+const filter = document.querySelectorAll('.filter');
+const allProducts = document.querySelector('.all-products-filter'),
+      spareParts = document.querySelector('.spare-parts-filter'),
+      accessories = document.querySelector('.accessories-filter'),
+      protection = document.querySelector('.protection-filter');
+
+function filtering(params) {
+    
+}
