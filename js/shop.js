@@ -50,38 +50,6 @@ prevBtn.addEventListener('click', prevSlide);
 
 
 
-
-const navBack = document.querySelector('.nav-background');
-const mainBtn = document.querySelector('.main-btn');
-const productsBtn = document.querySelector('.products-btn');
-const contactsBtn = document.querySelector('.contacts-btn');
-const trainingBtn = document.querySelector('.training-btn');
-
-mainBtn.addEventListener('mouseover', () => {
-    navBack.classList.add('main-back')
-    navBack.classList.remove('products-back')
-    navBack.classList.remove('contacts-back')
-    navBack.classList.remove('training-back')
-});
-productsBtn.addEventListener('mouseover', () =>{
-    navBack.classList.add('products-back')
-    navBack.classList.remove('main-back')
-    navBack.classList.remove('contacts-back')
-    navBack.classList.remove('training-back')
-});
-contactsBtn.addEventListener('mouseover', () =>{
-    navBack.classList.add('contacts-back')
-    navBack.classList.remove('products-back')
-    navBack.classList.remove('main-back')
-    navBack.classList.remove('training-back')
-});
-trainingBtn.addEventListener('mouseover', () => {
-    navBack.classList.add('training-back')
-    navBack.classList.remove('contacts-back')
-    navBack.classList.remove('main-back')
-    navBack.classList.remove('products-back')
-});
-
 const products = document.querySelectorAll('.product');
 const filtering = document.querySelector('.filtering');
 
@@ -104,20 +72,37 @@ const spareParts = document.querySelector('.spare-parts-filter');
 const accessories = document.querySelector('.accessories-filter');
 const protection = document.querySelector('.protection-filter');
 
+
+
 const filters = document.querySelectorAll('.filter');
 
 
 
-filtering.addEventListener('click', (activeFilter) => {
-    if (activeFilter.target.tagName !== 'BUTTON') return false;
-    
-    filters.forEach( (activeFilter) => {
-        activeFilter.classList.add('active-filter')
-        if (!activeFilter.classList.contains(filterClass)) {
-            activeFilter.classList.remove('active-filter');
-        }
-    })
-})
+allProducts.addEventListener('click', () => {
+    allProducts.classList.add('active-filter')
+    spareParts.classList.remove('active-filter')
+    accessories.classList.remove('active-filter')
+    protection.classList.remove('active-filter')
+});
+spareParts.addEventListener('click', () => {
+    spareParts.classList.add('active-filter')
+    allProducts.classList.remove('active-filter')
+    accessories.classList.remove('active-filter')
+    protection.classList.remove('active-filter')
+});
+accessories.addEventListener('click', () => {
+    accessories.classList.add('active-filter')
+    spareParts.classList.remove('active-filter')
+    allProducts.classList.remove('active-filter')
+    protection.classList.remove('active-filter')
+});
+protection.addEventListener('click', () => {
+    protection.classList.add('active-filter')
+    spareParts.classList.remove('active-filter')
+    allProducts.classList.remove('active-filter')
+    accessories.classList.remove('active-filter')
+});
+
 
 const menuBurger = document.querySelector('.menu-burger');
 const navigation = document.querySelector('nav');   

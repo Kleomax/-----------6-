@@ -30,6 +30,9 @@ a {
 .menu-burger {
     display: none;
 }
+.burger-logo {
+    display: none;
+}
 .header-logo {
     display: flex;
     gap: 10%;
@@ -88,6 +91,7 @@ a {
     column-gap: 10%;
     justify-content: center;
     list-style: none;
+    margin-top: 5%;
 }
 .nav-btn {
     z-index: 2;
@@ -100,30 +104,6 @@ a {
     font-size: 18px;
     color: #151B22;
     text-decoration: none;
-}
-.nav-btn a:hover {
-    color: white;
-}
-.nav-background {
-    position: absolute;
-    width: 13%;
-    bottom: 86.5%;
-}
-.main-back {  
-    left: 18%;
-    animation: main-back-animation 0.8s ease-in-out;
-}
-.products-back {
-    left: 33.8%;
-    animation: products-back-animation 0.8s ease-in-out;
-}
-.contacts-back {
-    left: 49.8%;
-    animation: contacts-back-animation 0.8s ease-in-out;
-}
-.training-back {
-    left: 67.6%;
-    animation: training-back-animation 0.8s ease-in-out;
 }
 .slides {
     position: relative;
@@ -481,22 +461,6 @@ a {
     .nav-btn a {
         font-size: 16px;
     }
-    .nav-background {
-        bottom: 85.7%;
-        width: 13.8%;
-    }
-    .main-back {
-        left: 16.7%;
-    }
-    .products-back {
-        left: 33%;
-    }
-    .contacts-back {
-        left: 49.5%;
-    }
-    .training-back {
-        left: 68%;
-    }
     .bicycle-img {
         width: 65%;
     }
@@ -770,6 +734,7 @@ a {
         display: block;
         padding-left: 9%;
         opacity: 0;
+        margin-top: 0;
     }
     .navigation-list.active-menu {
         width: 40%;
