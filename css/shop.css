@@ -512,14 +512,14 @@ a {
     .footer-btn {
         font-size: 16px;
     }
-    .phone-icon {
+    .footer-phone-icon {
         width: 90%;
     }
     .company-email {
         grid-template-columns: 12% auto;
         grid-column-gap: 4%;
     }
-    .email-icon {
+    .footer-email-icon {
         width: 95%;
     }
     .company-telephone {
@@ -613,8 +613,14 @@ a {
     .footer-contacts {
         grid-row-gap: 45%;
     }
+    .footer-phone-icon {
+        width: 85%;
+    }
     .company-telephone {
         font-size: 15px;
+    }
+    .footer-email-icon {
+        width: 95%;
     }
     .company-email-address {
         font-size: 15px;
@@ -832,13 +838,13 @@ a {
     .footer-btn {
         font-size: 13px;
     }
-    .phone-icon {
+    .footer-phone-icon {
         width: 90%;
     }
     .company-telephone {
         font-size: 13px;
     }
-    .email-icon {
+    .footer-email-icon {
         width: 90%;
     }
     .company-email-address {
