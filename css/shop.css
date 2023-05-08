@@ -755,7 +755,7 @@ a {
         gap: 10%;
         align-items: center;
         padding-top: 10%;
-        margin-bottom: 26%;
+        margin-bottom: 15%;
     }
     .burger-logo-img {
         width: 40px;
@@ -976,6 +976,9 @@ a {
     .buy-btn {
         width: 58%;
         font-size: 12px;
+    }
+    .footer {
+        margin-top: 14%;
     }
     .footer-elem {
         grid-template-columns: 36% 50%;

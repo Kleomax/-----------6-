@@ -1504,10 +1504,10 @@ footer {
     .smaller-slide {
         width: 100%;
         position: relative;
-        opacity: 0;
+        display: none;
     }
     .smaller-slide.active-slide {
-        opacity: 1;
+        display: block;
     }
     .smaller-people-img {
         width: 100%;
@@ -1916,9 +1916,6 @@ footer {
     .smaller-slides {
         grid-template-columns: 6% 60% 6%;
         margin-top: 11%;
-    }
-    .smaller-slide {
-        transition: all 1s ease-in-out 0s;
     }
     .smaller-people-output {
         height: 55%;
