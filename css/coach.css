@@ -55,6 +55,10 @@ nav {
     cursor: pointer;
     position: relative;
 }
+li .nav-btn {
+    align-content: center;
+    display: grid;
+}
 .coaches-title {
     margin-top: 7%;
     text-align: center;
@@ -345,10 +349,10 @@ nav {
         font-size: 13px;
     }
     .footer-elem {
-        grid-template-columns: 35.4% 56%;
+        grid-template-columns: 36% 56%;
         grid-template-rows: 76% auto;
         grid-row-gap: 15%;
-        grid-column-gap: 10%;
+        grid-column-gap: 9%;
     }
     .footer-elem-title {
         font-size: 14px;
@@ -363,6 +367,7 @@ nav {
     }
     .footer-contacts {
         grid-row-gap: 30%;
+        margin-top: 7%;
     }
     .networks-title {
         height: 30%;
