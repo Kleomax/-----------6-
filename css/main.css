@@ -45,7 +45,7 @@ a {
     align-self: center;
 }
 nav {
-    margin-left: 51.5%;
+    margin-left: 40%;
 }
 .burger-logo {
     display: none;
@@ -54,7 +54,7 @@ nav {
     position: relative;
     width: 0px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 100px;
 }
 .nav-btn {
@@ -66,27 +66,6 @@ nav {
     cursor: pointer;
     position: relative;
     list-style: none;
-}
-.nav-btn-back {
-    position: absolute;
-    width: 112.92px;
-    height: 32px;
-    transform: skew(-25deg);
-    background: rgba(59, 150, 234, 0.4);
-    bottom: -6px;
-    animation: sectionsAnimation 0.5s ease-in-out;
-}
-.main-back {
-    left: -25px;
-}
-.achiev-back {
-    left: 151px;
-}
-.contacts-back {
-    left: 336px;
-}
-.training-back {
-    left: 509px;
 }
 .header-title {
     margin-top: 16.9%;
@@ -644,7 +623,7 @@ footer {
 }
 @media screen and (max-width: 1300px) {
     nav {
-        margin-left: 530px;
+        margin-left: 25%;
     }
     .header-bike {
         width: 500px;
@@ -678,37 +657,18 @@ footer {
         padding-top: 40px;
         grid-template-columns: 40px 84px;
     }
-    .title_img {
-        width: 40px;
-    }
-    .main_title {
-        font-size: 15px;
+    .nav_title {
+        display: none;
     }
     nav {
-        margin-left: 439px;
+        padding-top: 7%;
+        margin-left: 22%;
     }
     .nav-btns {
         grid-column-gap: 75px;
     }
     .nav-btn {
         font-size: 15px;
-    }
-    .nav-btn-back {
-        width: 100px;
-        height: 30px;
-        bottom: -6px;
-    }
-    .main-back {
-        left: -21px;
-    }
-    .achiev-back {
-        left: 127px;
-    }
-    .contacts-back {
-        left: 280px;
-    }
-    .training-back {
-        left: 424px;
     }
     .header-title {
         margin-top: 16.9%;
@@ -1018,18 +978,11 @@ footer {
         background: url('../img/992px\ background\ web.png') no-repeat top;
     }
     .nav_title {
-        grid-template-columns: 38px auto;
-        grid-column-gap: 15px;
-        padding-top: 50px;
-    }
-    .title_img {
-        width: 38px;
-    }
-    .main_title {
-        font-size: 14px;
+        display: none;
     }
     nav {
-        margin-left: 38%;
+        padding-top: 5%;
+        margin-left: 19.5%;
     }
     .nav-btns {
         grid-column-gap: 65px;
@@ -1358,15 +1311,7 @@ footer {
         width: 280px;
         margin-top: 19.5%;
     }
-    .nav_title {
-        grid-template-columns: 35px auto;
-    }
-    .title_img {
-      width: 35px;  
-    }
-    .main_title {
-        font-size: 13px;
-    }
+
     .nav-btns {
         grid-column-gap: 35px;
     }
@@ -1374,7 +1319,7 @@ footer {
         font-size: 13px;
     }
     nav {
-        margin-left: 36%;
+        margin-left: 21.5%;
     }
     .header-title {
         width: 231px;
@@ -1798,7 +1743,7 @@ footer {
     }
     .header-bike {
         width: 42%;
-        margin-top: 16.5%;
+        margin-top: 10%;
     }
     .header-title {
         width: 213px;
